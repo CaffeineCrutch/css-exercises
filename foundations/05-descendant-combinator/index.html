@@ -7,15 +7,30 @@
     <title>Descendant Combinator</title>
     <link rel="stylesheet" href="style.css">
   </head>
+  <!-- Applying styles to elements that are descendants of another, while leaving elements that
+  are NOT descendants unstyled -->
+
+  <!-- NOTE: a class defines object's internal state and the implementation of its operations. 
+    In contrast, an object's type only refers to its interface - 
+    a set of requests to which it can respond.  -->
+
+    <!-- The <div> tag defines a division or a section in an HTML document.
+      The <div> tag is used as a container for HTML elements  -->
   <body>
     <div class="container">
       <p class="text">This should be styled.</p>
+      <!-- this text will be styled and aligned in the centre because the class container,
+      and its child class text, have been defined -->
     </div>
     <p class="text">This should be unstyled.</p>
     <p class="text">This should be unstyled.</p>
+    <!-- this text will not be styled because the class 'text' is only defined in the styles.css 
+      sheet, when it is contained within the parent class of 'container' -->
     <div class="container">
       <p class="text">This should be styled.</p>
       <p class="text">This should be styled.</p>
+      <!-- this text will be styled and aligned in the centre because the class container,
+      and its child class text, have been defined -->
     </div>
   </body>
 </html>

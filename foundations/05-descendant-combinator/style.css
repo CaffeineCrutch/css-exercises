@@ -1,0 +1,15 @@
+.container .text{
+    /* telling the selector we are looking for the class: container
+       telling the selector we are also looking for the child class: text within container. */
+  background-color: yellow;
+  /* setting the background color of these classes */
+  color: #E00000;
+  /* setting the font color of these classes */
+  font-size: 20px;
+  /* defining font size to 20 */
+  text-align: center;
+  /* telling the browser to align text to the centre of the page */
+  /* text that doesnt fall within these two classes will not align to the centre */
+}
+/* always start the selector with a period, to signify that we are looking for a class value.
+The period is followed by the class attribute value we want to match. */
