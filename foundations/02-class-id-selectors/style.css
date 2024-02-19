@@ -1,0 +1,21 @@
+.odd {
+    background-color: rgb(255, 167, 167);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.adjust-font-size {
+    font-size: 24px;
+}
+
+#two {
+    color: #0000ff;
+    font-size: 36px;
+}
+
+/*Since elements 3 and 4 share the same font size
+we reuse adjust font size above to reduce
+the need for duplicate code */
+#four {
+    background-color: hsl(120, 100%, 75%);
+    font-weight: bold;
+}
