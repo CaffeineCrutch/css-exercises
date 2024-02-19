@@ -1,1 +1,19 @@
 /* Add CSS Styling */
+
+/* declare classes attributes */
+
+.avatar.proportioned {
+  height: auto;
+  width: 300px;
+
+  /* auto will automatically set the height to square the image with the width */
+  /* this results in a proportioned display of the image file */
+}
+
+.avatar.distored{
+    height: 400px;
+    width: 200px;
+  /* this height is twice the width of the image file because we declared
+  the height attribute to a value */
+  /* this results in a distorted or unproportional display of the image file */
+}
