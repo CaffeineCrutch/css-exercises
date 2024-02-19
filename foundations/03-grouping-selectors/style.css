@@ -1,0 +1,20 @@
+/* listing classes*/
+.inverted,
+.fancy{
+    font-family: Helvetica, "Times New Roman", sans-serif;
+    font-size: 28px;
+/*setting font attributes for two seperate elements by listing both elements, seperated by
+a comma before the opening of the first braces*/
+}
+
+.inverted {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    /*setting individual parameters for the .inverted class that it will not share
+    with the fancy class*/
+}
+
+.fancy {
+    background-color: yellow;
+}
