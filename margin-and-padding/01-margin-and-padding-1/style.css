@@ -7,15 +7,19 @@ body {
   background: pink;
   border: 3px solid blue;
   /* CHANGE ME */
-  padding: 0px;
-  margin: 0px;
+  padding: 32px;
+  /* changes the padding or "space" of the element */
+  margin: 12px;
+  /* changes the thickness of the margin
+  surrounding the area of the element */
 }
 
 .two {
   background: lightblue;
   border: 3px solid purple;
   /* CHANGE ME */
-  margin-bottom: 0px;
+  margin-bottom: 48px;
+  /* creates a 48 pixel margin between .two and .three */
 }
 
 .three {
@@ -23,6 +27,9 @@ body {
   border: 3px solid brown;
   width: 200px;
   /* CHANGE ME */
-  padding: 0px;
-  margin-left: 0px;
+  padding: 32px;
+  /* adding 32 pixels of padding to element three */
+  margin-left: auto;
+  /* changing this value to auto will
+  automatically set the margin*/
 }
